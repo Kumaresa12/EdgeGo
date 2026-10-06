@@ -2,9 +2,8 @@ package config
 
 import (
 	"fmt"
-	"os"
-
 	"gopkg.in/yaml.v3"
+	"os"
 )
 
 func Load(path string) (*Config, error) {
