@@ -7,3 +7,6 @@ server:
 
 logging:
   level: "debug"
+
+proxy:
+  target: "http://localhost:9001"

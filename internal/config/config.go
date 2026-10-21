@@ -18,3 +18,7 @@ type ServerConfig struct {
 type LoggingConfig struct {
 	level string `yaml:"level"`
 }
+
+type ProxyConfig struct {
+	Target string `yaml:"Target"`
+}
